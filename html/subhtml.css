@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #e47909, #de8700, #d79300, #d09f00, #c7ab00);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* galssomorphism */
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container .backtomain{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #181818;
+    border-radius: 5px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    
+}

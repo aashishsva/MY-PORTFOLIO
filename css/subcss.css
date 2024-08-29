@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #30cfd0, #330867);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.backtomain{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    width: 90vw;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+    text-decoration: none;
+    color: #080808;
+    font-size: 18px;
+}
+
+.card a:hover {
+    color: #1900ff;
+}
+
+.fa-github {
+    font-size: 24px;
+    color: #330867;
+    transition: color 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+    color: #000000;
+}
